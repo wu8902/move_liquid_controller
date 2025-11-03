@@ -1,0 +1,22 @@
+{
+  "PORT": 6001,
+  "LOG_LEVEL": "INFO",
+  "SERIAL": "/",
+  "WORKSTATION_CODE": "liquid_handling_platform",
+  "NET_INTERFACES": [
+    "wlan",
+    "eth",
+    "enp"
+  ],
+  "URI": "/",
+  "MACHINE_CODE": "liquid_handling_platform_aa46d638-356c-42ed-8fb4-126bb26ff204",
+  "HEARTBEAT_URL": "http://192.168.110.179:8080/worker/workstation/heartbeat",
+  "HEARTBEAT_LOG_TIME_INTERVAL": 5,
+  "OPERATE_TIMEOUT": 300,
+  "QUEUE_GET_TIMEOUT": 1,
+  "HTTP_CALLBACK_URL":"http://192.168.110.179:8080/worker/instruction/callback",
+  "UPLOAD_URL":"http://192.168.110.179:8080/worker/expr-result",
+  "ROBOT_URL":"http://192.168.110.179:8080/worker/instruction/common-instruction/forward",
+  "ROBOT_CALLBACK_URL":"http://192.168.110.179:8080/worker/instruction/detail/",
+  "ROBOT_ID":1826621061366784
+}
